@@ -1,0 +1,131 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* doc/
+* doc/allclasses-frame.html
+* doc/allclasses-frame.html~
+* doc/allclasses-noframe.html
+* doc/allclasses-noframe.html~
+* doc/com/
+* doc/com/carenx/
+* doc/com/carenx/myrecorder/
+* doc/com/carenx/myrecorder/AudioRecordHelper.State.html
+* doc/com/carenx/myrecorder/AudioRecordHelper.html
+* doc/com/carenx/myrecorder/AudioRecorder.State.html
+* doc/com/carenx/myrecorder/AudioRecorder.html
+* doc/com/carenx/myrecorder/BuildConfig.html
+* doc/com/carenx/myrecorder/MyGraphView.Graph.html
+* doc/com/carenx/myrecorder/MyGraphView.html
+* doc/com/carenx/myrecorder/MyRecorder.html
+* doc/com/carenx/myrecorder/R.attr.html
+* doc/com/carenx/myrecorder/R.dimen.html
+* doc/com/carenx/myrecorder/R.drawable.html
+* doc/com/carenx/myrecorder/R.html
+* doc/com/carenx/myrecorder/R.id.html
+* doc/com/carenx/myrecorder/R.layout.html
+* doc/com/carenx/myrecorder/R.menu.html
+* doc/com/carenx/myrecorder/R.string.html
+* doc/com/carenx/myrecorder/R.style.html
+* doc/com/carenx/myrecorder/RecorderActivity.html
+* doc/com/carenx/myrecorder/SettingsActivity.html
+* doc/com/carenx/myrecorder/class-use/
+* doc/com/carenx/myrecorder/class-use/AudioRecordHelper.State.html
+* doc/com/carenx/myrecorder/class-use/AudioRecordHelper.html
+* doc/com/carenx/myrecorder/class-use/AudioRecorder.State.html
+* doc/com/carenx/myrecorder/class-use/AudioRecorder.html
+* doc/com/carenx/myrecorder/class-use/BuildConfig.html
+* doc/com/carenx/myrecorder/class-use/MyGraphView.Graph.html
+* doc/com/carenx/myrecorder/class-use/MyGraphView.html
+* doc/com/carenx/myrecorder/class-use/MyRecorder.html
+* doc/com/carenx/myrecorder/class-use/R.attr.html
+* doc/com/carenx/myrecorder/class-use/R.dimen.html
+* doc/com/carenx/myrecorder/class-use/R.drawable.html
+* doc/com/carenx/myrecorder/class-use/R.html
+* doc/com/carenx/myrecorder/class-use/R.id.html
+* doc/com/carenx/myrecorder/class-use/R.layout.html
+* doc/com/carenx/myrecorder/class-use/R.menu.html
+* doc/com/carenx/myrecorder/class-use/R.string.html
+* doc/com/carenx/myrecorder/class-use/R.style.html
+* doc/com/carenx/myrecorder/class-use/RecorderActivity.html
+* doc/com/carenx/myrecorder/class-use/SettingsActivity.html
+* doc/com/carenx/myrecorder/package-frame.html
+* doc/com/carenx/myrecorder/package-summary.html
+* doc/com/carenx/myrecorder/package-summary.html~
+* doc/com/carenx/myrecorder/package-tree.html
+* doc/com/carenx/myrecorder/package-use.html
+* doc/constant-values.html
+* doc/deprecated-list.html
+* doc/help-doc.html
+* doc/index-all.html
+* doc/index-files/
+* doc/index-files/index-1.html
+* doc/index-files/index-10.html
+* doc/index-files/index-11.html
+* doc/index-files/index-12.html
+* doc/index-files/index-13.html
+* doc/index-files/index-14.html
+* doc/index-files/index-15.html
+* doc/index-files/index-2.html
+* doc/index-files/index-3.html
+* doc/index-files/index-4.html
+* doc/index-files/index-5.html
+* doc/index-files/index-6.html
+* doc/index-files/index-7.html
+* doc/index-files/index-8.html
+* doc/index-files/index-9.html
+* doc/index.html
+* doc/overview-tree.html
+* doc/overview-tree.html~
+* doc/package-list
+* doc/resources/
+* doc/resources/background.gif
+* doc/resources/tab.gif
+* doc/resources/titlebar.gif
+* doc/resources/titlebar_end.gif
+* doc/stylesheet.css
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/GraphView-4.0.0.jar => app/libs/GraphView-4.0.0.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
